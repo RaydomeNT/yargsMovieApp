@@ -8,7 +8,7 @@ class Movie {
   }
   add() {
     movieArr.push(this);
-    console.log(movieArr);
+    console.table(movieArr);
   }
 }
 
